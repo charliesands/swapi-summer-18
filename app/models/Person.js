@@ -11,8 +11,10 @@ export default class Person {
     this.homeworld = reqData.homeworld
     this.films = reqData.films
     this.species = reqData.species
+    this.vehicles = reqData.vehicles
     this.starships = reqData.starships
     this.url = reqData.url
+    this.id = reqData.id
   }
 
   // get filmsData() {
